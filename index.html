@@ -7,6 +7,11 @@
     <meta name="description" content="Minha primeira página!">
     <title>Monirqx</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      .box {display: flex;}
+      model-viewer {width: 900px; height: 700px; margin: 0, auto;}
+    </style>
 </head>
 
 
@@ -27,7 +32,7 @@
             
         <h2 class="conteudo-principal-escrito-subtitulo">development student | 3D artist</h2>
           </div>
-          <img class="conteudo-principal-imagem"src="imagem.svg" alt="3D">
+          <model-viewer src="room.glb" camera-controls auto-rotate alt="3D room"></model-viewer>
         </section>
 
         <br>
@@ -64,7 +69,7 @@
         <br>
         <section class="conteudo-final">
             <div class="conteudo-final-escrito">
-              <h1 class="conteudo-final-escrito-titulo">Volte sempre!</h1>
+              <h1 class="conteudo-final-escrito-titulo">Come again!</h1>
             <img class="conteudo-final-imagem"src="image.svg" alt="Imagem-moniquinha">
           </section> 
 
